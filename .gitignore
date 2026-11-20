@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+
+# Claude Code local settings
+.claude/settings.local.json
